@@ -1,0 +1,33 @@
+{
+  "name": "Slender: Static Frequency",
+  "short_name": "Static Freq.",
+  "description": "In the spirit of the Slender Man legend: a tall, faceless figure in the fog, notes nailed to the trees, and one rule. Don't look at him. First-person survival horror. Best with headphones.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "fullscreen",
+  "orientation": "landscape",
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "lang": "en",
+  "categories": [
+    "games"
+  ],
+  "icons": [
+    {
+      "src": "favicon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}

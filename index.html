@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover"
+    />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="theme-color" content="#000000" />
+    <!-- AdSense: the site's verification (src/config/ads.ts). Google's script itself is loaded by src/native/ads.ts. -->
+    <meta name="google-adsense-account" content="ca-pub-2894825341575543" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="./favicon-192.png" />
+    <link rel="apple-touch-icon" href="./apple-touch-icon.png" />
+    <link rel="manifest" href="./manifest.webmanifest" />
+    <title>Slender: Static Frequency</title>
+    <meta name="description" content="In the spirit of the Slender Man legend: a tall, faceless figure in the fog, notes nailed to the trees, and one rule. Don&#39;t look at him. First-person survival horror. Best with headphones." />
+    <!-- Link previews (messages, social posts). The image must be a full URL: the public game's address. -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Slender: Static Frequency" />
+    <meta property="og:title" content="Slender: Static Frequency" />
+    <meta property="og:description" content="In the spirit of the Slender Man legend: a tall, faceless figure in the fog, notes nailed to the trees, and one rule. Don&#39;t look at him. First-person survival horror. Best with headphones." />
+    <meta property="og:url" content="https://yoavtoren.github.io/static-frequency-game/" />
+    <meta property="og:image" content="https://yoavtoren.github.io/static-frequency-game/social-preview.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="A fenced field in fog at night, pines all round, one concrete building with its antennas lit." />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Slender: Static Frequency" />
+    <meta name="twitter:description" content="In the spirit of the Slender Man legend: a tall, faceless figure in the fog, notes nailed to the trees, and one rule. Don&#39;t look at him. First-person survival horror. Best with headphones." />
+    <meta name="twitter:image" content="https://yoavtoren.github.io/static-frequency-game/social-preview.jpg" />
+    <style>
+      html, body, #root { margin: 0; padding: 0; width: 100%; height: 100%; overflow: hidden; background: #000; }
+      /* iOS enlarges text in landscape unless told not to (Tailwind's base says so too, but only once the CSS is in). */
+      html { -webkit-text-size-adjust: 100%; -moz-text-size-adjust: 100%; text-size-adjust: 100%; }
+      body { overscroll-behavior: none; -webkit-user-select: none; -moz-user-select: none; user-select: none; -webkit-touch-callout: none; touch-action: none; }
+      /* The loading screen, here so that it is up before any script: the name and a line that runs, until the home
+         screen's picture is in (src/components/ui/bootSplash.ts takes it away). */
+      #boot-splash { position: fixed; inset: 0; z-index: 1000; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 1.5rem; background: #020405; color: #f5f7f8; font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Helvetica Neue', 'Segoe UI', Roboto, sans-serif; transition: opacity 0.7s ease; }
+      #boot-splash.gone { opacity: 0; pointer-events: none; }
+      #boot-splash .name { font-size: clamp(1.2rem, 3.4vw, 2.3rem); font-weight: 200; letter-spacing: 0.34em; padding-left: 0.34em; text-transform: uppercase; text-align: center; line-height: 1.25; text-shadow: 0 0 30px rgba(150, 195, 212, 0.3); }
+      #boot-splash .name b { font-weight: 600; }
+      #boot-splash .bar { position: relative; width: min(15rem, 46vw); height: 1px; overflow: hidden; background: rgba(255, 255, 255, 0.16); }
+      #boot-splash .bar i { position: absolute; top: 0; bottom: 0; left: 0; width: 34%; background: #ffb35c; box-shadow: 0 0 8px rgba(255, 179, 92, 0.8); animation: boot-run 1.5s ease-in-out infinite; }
+      @keyframes boot-run { 0% { transform: translateX(-110%); } 100% { transform: translateX(310%); } }
+      #boot-splash .freq { font-size: 10.5px; letter-spacing: 0.3em; padding-left: 0.3em; text-transform: uppercase; color: rgba(238, 241, 242, 0.45); }
+    </style>
+    <script type="module" crossorigin src="./assets/index-D4BPmBpj.js"></script>
+    <link rel="modulepreload" crossorigin href="./assets/three-DxVm7sOD.js">
+    <link rel="modulepreload" crossorigin href="./assets/r3f-BQAQplGF.js">
+  </head>
+  <body>
+    <div id="root"></div>
+    <div id="boot-splash" aria-hidden="true">
+      <div class="name">Static<br /><b>Frequency</b></div>
+      <div class="bar"><i></i></div>
+      <div class="freq">98.4 MHz</div>
+    </div>
+    <script>
+      // (Whatever happens, it does not stay for ever.)
+      setTimeout(function () { var el = document.getElementById('boot-splash'); if (el) { el.className = 'gone'; setTimeout(function () { el.remove(); }, 800); } }, 15000);
+    </script>
+  </body>
+</html>

@@ -1,0 +1,2928 @@
+{
+  "version": 2,
+  "generatedAt": "2026-11-20T09:35:27.132Z",
+  "models": {
+    "sfx": "stackadoc/stable-audio-open-1.0",
+    "voice": "minimax/speech-2.8-turbo"
+  },
+  "sounds": {
+    "footstep_concrete": [
+      "footstep_concrete/00.wav",
+      "footstep_concrete/01.wav",
+      "footstep_concrete/02.wav",
+      "footstep_concrete/03.wav",
+      "footstep_concrete/04.wav",
+      "footstep_concrete/05.wav",
+      "footstep_concrete/06.wav",
+      "footstep_concrete/07.wav",
+      "footstep_concrete/08.wav",
+      "footstep_concrete/09.wav",
+      "footstep_concrete/10.wav",
+      "footstep_concrete/11.wav",
+      "footstep_concrete/12.wav",
+      "footstep_concrete/13.wav",
+      "footstep_concrete/14.wav",
+      "footstep_concrete/15.wav",
+      "footstep_concrete/16.wav",
+      "footstep_concrete/17.wav",
+      "footstep_concrete/18.wav",
+      "footstep_concrete/19.wav"
+    ],
+    "footstep_grass": [
+      "footstep_grass/00.wav",
+      "footstep_grass/01.wav",
+      "footstep_grass/02.wav",
+      "footstep_grass/03.wav",
+      "footstep_grass/04.wav",
+      "footstep_grass/05.wav",
+      "footstep_grass/06.wav",
+      "footstep_grass/07.wav",
+      "footstep_grass/08.wav",
+      "footstep_grass/09.wav",
+      "footstep_grass/10.wav",
+      "footstep_grass/11.wav",
+      "footstep_grass/12.wav",
+      "footstep_grass/13.wav",
+      "footstep_grass/14.wav",
+      "footstep_grass/15.wav"
+    ],
+    "footstep_steel": [
+      "footstep_steel/00.wav",
+      "footstep_steel/01.wav",
+      "footstep_steel/02.wav",
+      "footstep_steel/03.wav",
+      "footstep_steel/04.wav",
+      "footstep_steel/05.wav",
+      "footstep_steel/06.wav",
+      "footstep_steel/07.wav",
+      "footstep_steel/08.wav",
+      "footstep_steel/09.wav",
+      "footstep_steel/10.wav",
+      "footstep_steel/11.wav",
+      "footstep_steel/12.wav",
+      "footstep_steel/13.wav",
+      "footstep_steel/14.wav",
+      "footstep_steel/15.wav",
+      "footstep_steel/16.wav",
+      "footstep_steel/17.wav",
+      "footstep_steel/18.wav",
+      "footstep_steel/19.wav"
+    ],
+    "footstep_wood": [
+      "footstep_wood/00.wav",
+      "footstep_wood/01.wav",
+      "footstep_wood/02.wav",
+      "footstep_wood/03.wav",
+      "footstep_wood/04.wav",
+      "footstep_wood/05.wav",
+      "footstep_wood/06.wav",
+      "footstep_wood/07.wav",
+      "footstep_wood/08.wav",
+      "footstep_wood/09.wav",
+      "footstep_wood/10.wav",
+      "footstep_wood/11.wav",
+      "footstep_wood/12.wav",
+      "footstep_wood/13.wav",
+      "footstep_wood/14.wav",
+      "footstep_wood/15.wav",
+      "footstep_wood/16.wav",
+      "footstep_wood/17.wav",
+      "footstep_wood/18.wav",
+      "footstep_wood/19.wav"
+    ],
+    "footstep_brick": [
+      "footstep_brick/00.wav",
+      "footstep_brick/01.wav",
+      "footstep_brick/02.wav",
+      "footstep_brick/03.wav",
+      "footstep_brick/04.wav",
+      "footstep_brick/05.wav",
+      "footstep_brick/06.wav",
+      "footstep_brick/07.wav",
+      "footstep_brick/08.wav",
+      "footstep_brick/09.wav",
+      "footstep_brick/10.wav",
+      "footstep_brick/11.wav",
+      "footstep_brick/12.wav",
+      "footstep_brick/13.wav",
+      "footstep_brick/14.wav",
+      "footstep_brick/15.wav",
+      "footstep_brick/16.wav",
+      "footstep_brick/17.wav",
+      "footstep_brick/18.wav",
+      "footstep_brick/19.wav"
+    ],
+    "footstep_hay": [
+      "footstep_hay/00.wav",
+      "footstep_hay/01.wav",
+      "footstep_hay/02.wav",
+      "footstep_hay/03.wav",
+      "footstep_hay/04.wav",
+      "footstep_hay/05.wav",
+      "footstep_hay/06.wav",
+      "footstep_hay/07.wav",
+      "footstep_hay/08.wav",
+      "footstep_hay/09.wav",
+      "footstep_hay/10.wav",
+      "footstep_hay/11.wav",
+      "footstep_hay/12.wav",
+      "footstep_hay/13.wav",
+      "footstep_hay/14.wav",
+      "footstep_hay/15.wav",
+      "footstep_hay/16.wav",
+      "footstep_hay/17.wav",
+      "footstep_hay/18.wav",
+      "footstep_hay/19.wav"
+    ],
+    "player_breath_exhausted": [
+      "player_breath_exhausted/00.m4a",
+      "player_breath_exhausted/01.m4a"
+    ],
+    "player_pant": [
+      "player_pant/00.m4a"
+    ],
+    "player_hurt": [
+      "player_hurt/00.wav",
+      "player_hurt/01.m4a",
+      "player_hurt/02.wav"
+    ],
+    "flashlight_click": [
+      "flashlight_click/00.wav",
+      "flashlight_click/01.wav",
+      "flashlight_click/02.m4a"
+    ],
+    "ui_click": [
+      "ui_click/00.wav",
+      "ui_click/01.wav",
+      "ui_click/02.wav"
+    ],
+    "ui_confirm": [
+      "ui_confirm/00.wav",
+      "ui_confirm/01.wav"
+    ],
+    "ui_back": [
+      "ui_back/00.wav",
+      "ui_back/01.wav"
+    ],
+    "paper_unfold": [
+      "paper_unfold/00.m4a",
+      "paper_unfold/01.m4a"
+    ],
+    "paper_fold": [
+      "paper_fold/00.wav",
+      "paper_fold/01.m4a"
+    ],
+    "radio_dial_tick": [
+      "radio_dial_tick/00.wav",
+      "radio_dial_tick/01.wav",
+      "radio_dial_tick/02.wav"
+    ],
+    "radio_switch_on": [
+      "radio_switch_on/00.m4a",
+      "radio_switch_on/01.m4a"
+    ],
+    "walkie_squelch": [
+      "walkie_squelch/00.wav",
+      "walkie_squelch/01.m4a",
+      "walkie_squelch/02.m4a"
+    ],
+    "radio_static_burst": [
+      "radio_static_burst/00.m4a",
+      "radio_static_burst/01.m4a"
+    ],
+    "battery_insert": [
+      "battery_insert/00.wav",
+      "battery_insert/01.m4a"
+    ],
+    "tower_door": [
+      "tower_door/00.m4a",
+      "tower_door/01.m4a"
+    ],
+    "pickup_flask": [
+      "pickup_flask/00.wav",
+      "pickup_flask/01.m4a"
+    ],
+    "pickup_battery": [
+      "pickup_battery/00.m4a",
+      "pickup_battery/01.m4a",
+      "pickup_battery/02.m4a",
+      "pickup_battery/03.m4a",
+      "pickup_battery/04.m4a"
+    ],
+    "generator_wrench": [
+      "generator_wrench/00.m4a"
+    ],
+    "generator_clank": [
+      "generator_clank/00.m4a",
+      "generator_clank/01.wav",
+      "generator_clank/02.m4a"
+    ],
+    "generator_start": [
+      "generator_start/00.m4a"
+    ],
+    "generator_loop": [
+      "generator_loop/00.m4a"
+    ],
+    "generator_stall": [
+      "generator_stall/00.m4a"
+    ],
+    "wolf_growl": [
+      "wolf_growl/00.m4a",
+      "wolf_growl/01.m4a",
+      "wolf_growl/02.m4a",
+      "wolf_growl/03.m4a"
+    ],
+    "wolf_howl": [
+      "wolf_howl/00.m4a",
+      "wolf_howl/01.m4a",
+      "wolf_howl/02.m4a",
+      "wolf_howl/03.m4a"
+    ],
+    "wolf_attack": [
+      "wolf_attack/00.m4a",
+      "wolf_attack/01.m4a",
+      "wolf_attack/02.wav"
+    ],
+    "wolf_whimper": [
+      "wolf_whimper/00.m4a",
+      "wolf_whimper/01.m4a",
+      "wolf_whimper/02.m4a",
+      "wolf_whimper/03.m4a",
+      "wolf_whimper/04.m4a"
+    ],
+    "specimen_footstep": [
+      "specimen_footstep/00.wav",
+      "specimen_footstep/01.wav",
+      "specimen_footstep/02.wav",
+      "specimen_footstep/03.wav",
+      "specimen_footstep/04.wav",
+      "specimen_footstep/05.wav",
+      "specimen_footstep/06.wav",
+      "specimen_footstep/07.wav",
+      "specimen_footstep/08.wav",
+      "specimen_footstep/09.wav",
+      "specimen_footstep/10.wav",
+      "specimen_footstep/11.wav",
+      "specimen_footstep/12.wav",
+      "specimen_footstep/13.wav",
+      "specimen_footstep/14.wav",
+      "specimen_footstep/15.wav",
+      "specimen_footstep/16.wav",
+      "specimen_footstep/17.wav",
+      "specimen_footstep/18.wav",
+      "specimen_footstep/19.wav",
+      "specimen_footstep/20.wav",
+      "specimen_footstep/21.wav",
+      "specimen_footstep/22.wav",
+      "specimen_footstep/23.wav"
+    ],
+    "specimen_footstep_floor": [
+      "specimen_footstep_floor/00.wav",
+      "specimen_footstep_floor/01.wav",
+      "specimen_footstep_floor/02.wav",
+      "specimen_footstep_floor/03.wav",
+      "specimen_footstep_floor/04.wav",
+      "specimen_footstep_floor/05.wav",
+      "specimen_footstep_floor/06.wav",
+      "specimen_footstep_floor/07.wav",
+      "specimen_footstep_floor/08.wav",
+      "specimen_footstep_floor/09.wav",
+      "specimen_footstep_floor/10.wav",
+      "specimen_footstep_floor/11.wav",
+      "specimen_footstep_floor/12.wav",
+      "specimen_footstep_floor/13.wav",
+      "specimen_footstep_floor/14.wav",
+      "specimen_footstep_floor/15.wav",
+      "specimen_footstep_floor/16.wav",
+      "specimen_footstep_floor/17.wav",
+      "specimen_footstep_floor/18.wav",
+      "specimen_footstep_floor/19.wav",
+      "specimen_footstep_floor/20.wav",
+      "specimen_footstep_floor/21.wav",
+      "specimen_footstep_floor/22.wav"
+    ],
+    "specimen_footstep_steel": [
+      "specimen_footstep_steel/00.wav",
+      "specimen_footstep_steel/01.wav",
+      "specimen_footstep_steel/02.wav",
+      "specimen_footstep_steel/03.wav",
+      "specimen_footstep_steel/04.wav",
+      "specimen_footstep_steel/05.wav",
+      "specimen_footstep_steel/06.wav",
+      "specimen_footstep_steel/07.wav",
+      "specimen_footstep_steel/08.wav",
+      "specimen_footstep_steel/09.wav",
+      "specimen_footstep_steel/10.wav",
+      "specimen_footstep_steel/11.wav",
+      "specimen_footstep_steel/12.wav"
+    ],
+    "specimen_footstep_wood": [
+      "specimen_footstep_wood/00.wav",
+      "specimen_footstep_wood/01.wav",
+      "specimen_footstep_wood/02.wav",
+      "specimen_footstep_wood/03.wav",
+      "specimen_footstep_wood/04.wav",
+      "specimen_footstep_wood/05.wav",
+      "specimen_footstep_wood/06.wav",
+      "specimen_footstep_wood/07.wav",
+      "specimen_footstep_wood/08.wav",
+      "specimen_footstep_wood/09.wav",
+      "specimen_footstep_wood/10.wav",
+      "specimen_footstep_wood/11.wav",
+      "specimen_footstep_wood/12.wav",
+      "specimen_footstep_wood/13.wav",
+      "specimen_footstep_wood/14.wav",
+      "specimen_footstep_wood/15.wav",
+      "specimen_footstep_wood/16.wav",
+      "specimen_footstep_wood/17.wav",
+      "specimen_footstep_wood/18.wav",
+      "specimen_footstep_wood/19.wav",
+      "specimen_footstep_wood/20.wav",
+      "specimen_footstep_wood/21.wav"
+    ],
+    "specimen_claw": [
+      "specimen_claw/00.wav",
+      "specimen_claw/01.wav",
+      "specimen_claw/02.wav",
+      "specimen_claw/03.wav",
+      "specimen_claw/04.wav",
+      "specimen_claw/05.wav",
+      "specimen_claw/06.wav",
+      "specimen_claw/07.wav",
+      "specimen_claw/08.wav",
+      "specimen_claw/09.wav",
+      "specimen_claw/10.wav",
+      "specimen_claw/11.wav",
+      "specimen_claw/12.wav",
+      "specimen_claw/13.wav",
+      "specimen_claw/14.wav",
+      "specimen_claw/15.wav",
+      "specimen_claw/16.wav",
+      "specimen_claw/17.wav",
+      "specimen_claw/18.wav",
+      "specimen_claw/19.wav"
+    ],
+    "specimen_bones": [
+      "specimen_bones/00.wav",
+      "specimen_bones/01.wav",
+      "specimen_bones/02.wav",
+      "specimen_bones/03.wav",
+      "specimen_bones/04.wav",
+      "specimen_bones/05.wav",
+      "specimen_bones/06.wav",
+      "specimen_bones/07.wav",
+      "specimen_bones/08.wav",
+      "specimen_bones/09.wav",
+      "specimen_bones/10.wav",
+      "specimen_bones/11.wav",
+      "specimen_bones/12.wav",
+      "specimen_bones/13.wav",
+      "specimen_bones/14.wav",
+      "specimen_bones/15.wav",
+      "specimen_bones/16.wav",
+      "specimen_bones/17.wav",
+      "specimen_bones/18.wav",
+      "specimen_bones/19.wav"
+    ],
+    "specimen_laugh": [
+      "specimen_laugh/00.m4a",
+      "specimen_laugh/01.m4a",
+      "specimen_laugh/02.m4a"
+    ],
+    "specimen_breath": [
+      "specimen_breath/00.m4a"
+    ],
+    "specimen_roar": [
+      "specimen_roar/00.m4a",
+      "specimen_roar/01.m4a"
+    ],
+    "specimen_repelled": [
+      "specimen_repelled/00.m4a",
+      "specimen_repelled/01.m4a"
+    ],
+    "specimen_kill": [
+      "specimen_kill/00.m4a",
+      "specimen_kill/01.m4a"
+    ],
+    "burglar_rummage": [
+      "burglar_rummage/00.m4a"
+    ],
+    "fence_rattle": [
+      "fence_rattle/00.m4a",
+      "fence_rattle/01.m4a"
+    ],
+    "ambience_night": [
+      "ambience_night/00.m4a"
+    ],
+    "ambience_lab": [
+      "ambience_lab/00.m4a"
+    ],
+    "power_surge": [
+      "power_surge/00.m4a",
+      "power_surge/01.m4a"
+    ],
+    "shockwave": [
+      "shockwave/00.m4a"
+    ],
+    "vo_intro_night1": [
+      "vo_intro_night1/00.m4a"
+    ],
+    "vo_intro_endless": [
+      "vo_intro_endless/00.m4a"
+    ],
+    "vo_station_1": [
+      "vo_station_1/00.m4a"
+    ],
+    "vo_station_2": [
+      "vo_station_2/00.m4a"
+    ],
+    "vo_station_3": [
+      "vo_station_3/00.m4a"
+    ],
+    "vo_station_4": [
+      "vo_station_4/00.m4a"
+    ],
+    "vo_station_5": [
+      "vo_station_5/00.m4a"
+    ],
+    "vo_station_6": [
+      "vo_station_6/00.m4a"
+    ],
+    "vo_station_7": [
+      "vo_station_7/00.m4a"
+    ],
+    "vo_station_8": [
+      "vo_station_8/00.m4a"
+    ],
+    "vo_station_9": [
+      "vo_station_9/00.m4a"
+    ],
+    "vo_station_10": [
+      "vo_station_10/00.m4a"
+    ],
+    "vo_station_11": [
+      "vo_station_11/00.m4a"
+    ],
+    "vo_station_12": [
+      "vo_station_12/00.m4a"
+    ],
+    "vo_station_13": [
+      "vo_station_13/00.m4a"
+    ],
+    "vo_station_14": [
+      "vo_station_14/00.m4a"
+    ],
+    "vo_station_15": [
+      "vo_station_15/00.m4a"
+    ],
+    "vo_station_16": [
+      "vo_station_16/00.m4a"
+    ],
+    "vo_station_17": [
+      "vo_station_17/00.m4a"
+    ],
+    "vo_station_18": [
+      "vo_station_18/00.m4a"
+    ],
+    "vo_station_19": [
+      "vo_station_19/00.m4a"
+    ],
+    "vo_station_20": [
+      "vo_station_20/00.m4a"
+    ],
+    "vo_generator_online": [
+      "vo_generator_online/00.m4a"
+    ],
+    "vo_surge": [
+      "vo_surge/00.m4a"
+    ],
+    "vo_brownout": [
+      "vo_brownout/00.m4a"
+    ],
+    "vo_scavengers": [
+      "vo_scavengers/00.m4a"
+    ],
+    "vo_victory": [
+      "vo_victory/00.m4a"
+    ],
+    "burglar_scream": [
+      "burglar_scream/00.m4a",
+      "burglar_scream/01.m4a"
+    ],
+    "wolf_death": [
+      "wolf_death/00.m4a",
+      "wolf_death/01.m4a"
+    ],
+    "specimen_feed": [
+      "specimen_feed/00.m4a"
+    ],
+    "hide_in": [
+      "hide_in/00.m4a"
+    ],
+    "dread_drone": [
+      "dread_drone/00.m4a"
+    ],
+    "dread_growl": [
+      "dread_growl/00.m4a"
+    ],
+    "dread_ring": [
+      "dread_ring/00.m4a"
+    ],
+    "scare_sting": [
+      "scare_sting/00.m4a",
+      "scare_sting/01.m4a"
+    ],
+    "static_burst": [
+      "static_burst/00.m4a",
+      "static_burst/01.m4a"
+    ],
+    "chase_sting": [
+      "chase_sting/00.m4a",
+      "chase_sting/01.m4a",
+      "chase_sting/02.m4a",
+      "chase_sting/03.m4a"
+    ],
+    "watching_swell": [
+      "watching_swell/00.m4a"
+    ],
+    "scare_slam": [
+      "scare_slam/00.m4a",
+      "scare_slam/01.m4a",
+      "scare_slam/02.m4a",
+      "scare_slam/03.m4a"
+    ],
+    "scare_shriek": [
+      "scare_shriek/00.m4a",
+      "scare_shriek/01.m4a",
+      "scare_shriek/02.m4a",
+      "scare_shriek/03.m4a"
+    ],
+    "scare_static": [
+      "scare_static/00.wav",
+      "scare_static/01.wav",
+      "scare_static/02.wav",
+      "scare_static/03.wav"
+    ],
+    "notice_whine": [
+      "notice_whine/00.m4a"
+    ],
+    "dread_spine": [
+      "dread_spine/00.m4a"
+    ],
+    "dread_spine_rough": [
+      "dread_spine_rough/00.m4a"
+    ],
+    "ambience_insects": [
+      "ambience_insects/00.m4a"
+    ],
+    "wind_high": [
+      "wind_high/00.m4a"
+    ],
+    "wolf_steps": [
+      "wolf_steps/00.wav",
+      "wolf_steps/01.wav",
+      "wolf_steps/02.wav",
+      "wolf_steps/03.wav",
+      "wolf_steps/04.wav",
+      "wolf_steps/05.wav",
+      "wolf_steps/06.wav",
+      "wolf_steps/07.wav",
+      "wolf_steps/08.wav",
+      "wolf_steps/09.wav",
+      "wolf_steps/10.wav",
+      "wolf_steps/11.wav",
+      "wolf_steps/12.wav",
+      "wolf_steps/13.wav",
+      "wolf_steps/14.wav",
+      "wolf_steps/15.wav",
+      "wolf_steps/16.wav",
+      "wolf_steps/17.wav",
+      "wolf_steps/18.wav",
+      "wolf_steps/19.wav",
+      "wolf_steps/20.wav",
+      "wolf_steps/21.wav",
+      "wolf_steps/22.wav",
+      "wolf_steps/23.wav"
+    ],
+    "hide_out": [
+      "hide_out/00.wav",
+      "hide_out/01.wav",
+      "hide_out/02.m4a"
+    ],
+    "sighting_boom": [
+      "sighting_boom/00.m4a",
+      "sighting_boom/01.m4a",
+      "sighting_boom/02.m4a",
+      "sighting_boom/03.m4a"
+    ],
+    "gaze_grind": [
+      "gaze_grind/00.m4a"
+    ],
+    "reveal_sting": [
+      "reveal_sting/00.wav",
+      "reveal_sting/01.wav",
+      "reveal_sting/02.wav"
+    ],
+    "haunt_knock": [
+      "haunt_knock/00.m4a",
+      "haunt_knock/01.m4a",
+      "haunt_knock/02.m4a",
+      "haunt_knock/03.m4a"
+    ],
+    "haunt_scrape": [
+      "haunt_scrape/00.m4a",
+      "haunt_scrape/01.m4a",
+      "haunt_scrape/02.m4a",
+      "haunt_scrape/03.m4a"
+    ],
+    "haunt_breath": [
+      "haunt_breath/00.m4a",
+      "haunt_breath/01.m4a",
+      "haunt_breath/02.m4a",
+      "haunt_breath/03.m4a"
+    ],
+    "lights_dip": [
+      "lights_dip/00.m4a"
+    ],
+    "generator_crank": [
+      "generator_crank/00.wav",
+      "generator_crank/01.m4a",
+      "generator_crank/02.m4a",
+      "generator_crank/03.m4a",
+      "generator_crank/04.m4a"
+    ],
+    "generator_sputter": [
+      "generator_sputter/00.m4a",
+      "generator_sputter/01.m4a"
+    ],
+    "grid_ready": [
+      "grid_ready/00.m4a"
+    ],
+    "breaker_throw": [
+      "breaker_throw/00.m4a"
+    ],
+    "antennas_fire": [
+      "antennas_fire/00.m4a"
+    ],
+    "torch_pop": [
+      "torch_pop/00.wav"
+    ],
+    "burglar_startled": [
+      "burglar_startled/00.m4a"
+    ],
+    "radio_off": [
+      "radio_off/00.m4a"
+    ],
+    "heartbeat": [
+      "heartbeat/00.wav",
+      "heartbeat/01.wav",
+      "heartbeat/02.wav",
+      "heartbeat/03.wav",
+      "heartbeat/04.wav",
+      "heartbeat/05.wav"
+    ],
+    "heartbeat_mid": [
+      "heartbeat_mid/00.wav",
+      "heartbeat_mid/01.wav",
+      "heartbeat_mid/02.wav",
+      "heartbeat_mid/03.wav",
+      "heartbeat_mid/04.wav",
+      "heartbeat_mid/05.wav",
+      "heartbeat_mid/06.wav",
+      "heartbeat_mid/07.wav"
+    ],
+    "heartbeat_fast": [
+      "heartbeat_fast/00.wav",
+      "heartbeat_fast/01.wav",
+      "heartbeat_fast/02.wav",
+      "heartbeat_fast/03.wav",
+      "heartbeat_fast/04.wav",
+      "heartbeat_fast/05.wav",
+      "heartbeat_fast/06.wav",
+      "heartbeat_fast/07.wav"
+    ],
+    "death_static": [
+      "death_static/00.m4a"
+    ],
+    "vo_weiss_log_1": [
+      "vo_weiss_log_1/00.m4a"
+    ],
+    "vo_weiss_log_2": [
+      "vo_weiss_log_2/00.m4a"
+    ],
+    "vo_weiss_log_3": [
+      "vo_weiss_log_3/00.m4a"
+    ],
+    "vo_count_calm": [
+      "vo_count_calm/00.m4a"
+    ],
+    "vo_count_afraid": [
+      "vo_count_afraid/00.m4a"
+    ],
+    "vo_count_shout": [
+      "vo_count_shout/00.m4a"
+    ],
+    "vo_whisper_look": [
+      "vo_whisper_look/00.m4a"
+    ],
+    "thunder_close": [
+      "thunder_close/00.m4a",
+      "thunder_close/01.m4a",
+      "thunder_close/02.m4a"
+    ],
+    "thunder_far": [
+      "thunder_far/00.m4a",
+      "thunder_far/01.m4a",
+      "thunder_far/02.m4a"
+    ],
+    "wolf_howl_pack": [
+      "wolf_howl_pack/00.m4a",
+      "wolf_howl_pack/01.m4a",
+      "wolf_howl_pack/02.m4a"
+    ],
+    "wolf_run_by": [
+      "wolf_run_by/00.m4a",
+      "wolf_run_by/01.m4a",
+      "wolf_run_by/02.m4a"
+    ],
+    "chains_rattle": [
+      "chains_rattle/00.m4a",
+      "chains_rattle/01.m4a",
+      "chains_rattle/02.m4a"
+    ],
+    "specimen_startle": [
+      "specimen_startle/00.m4a",
+      "specimen_startle/01.m4a",
+      "specimen_startle/02.m4a"
+    ],
+    "spark_zap": [
+      "spark_zap/00.wav",
+      "spark_zap/01.wav",
+      "spark_zap/02.wav",
+      "spark_zap/03.wav",
+      "spark_zap/04.wav",
+      "spark_zap/05.wav",
+      "spark_zap/06.wav",
+      "spark_zap/07.wav",
+      "spark_zap/08.wav",
+      "spark_zap/09.wav"
+    ],
+    "footstep_water": [
+      "footstep_water/00.wav",
+      "footstep_water/01.wav",
+      "footstep_water/02.wav",
+      "footstep_water/03.wav",
+      "footstep_water/04.wav",
+      "footstep_water/05.wav",
+      "footstep_water/06.wav",
+      "footstep_water/07.wav",
+      "footstep_water/08.wav",
+      "footstep_water/09.wav",
+      "footstep_water/10.wav",
+      "footstep_water/11.wav",
+      "footstep_water/12.wav",
+      "footstep_water/13.wav",
+      "footstep_water/14.wav",
+      "footstep_water/15.wav"
+    ],
+    "ambience_tunnel": [
+      "ambience_tunnel/00.m4a"
+    ],
+    "specimen_agony": [
+      "specimen_agony/00.m4a",
+      "specimen_agony/01.m4a"
+    ],
+    "gate_open": [
+      "gate_open/00.m4a",
+      "gate_open/01.m4a"
+    ],
+    "field_down": [
+      "field_down/00.m4a"
+    ],
+    "death_drag": [
+      "death_drag/00.m4a",
+      "death_drag/01.m4a"
+    ],
+    "boom_mech": [
+      "boom_mech/00.m4a",
+      "boom_mech/01.m4a"
+    ],
+    "dread_pursuit": [
+      "dread_pursuit/00.m4a"
+    ]
+  },
+  "levels": {
+    "footstep_concrete/00.wav": {
+      "lufs": -25.3,
+      "peak": -3.5
+    },
+    "footstep_concrete/01.wav": {
+      "lufs": -25.7,
+      "peak": -1.5
+    },
+    "footstep_concrete/02.wav": {
+      "lufs": -27.4,
+      "peak": -1.5
+    },
+    "footstep_concrete/03.wav": {
+      "lufs": -25.9,
+      "peak": -1.5
+    },
+    "footstep_concrete/04.wav": {
+      "lufs": -26.2,
+      "peak": -1.5
+    },
+    "footstep_concrete/05.wav": {
+      "lufs": -27.4,
+      "peak": -1.5
+    },
+    "footstep_concrete/06.wav": {
+      "lufs": -25.9,
+      "peak": -1.5
+    },
+    "footstep_concrete/07.wav": {
+      "lufs": -26.1,
+      "peak": -1.5
+    },
+    "footstep_concrete/08.wav": {
+      "lufs": -25.6,
+      "peak": -1.5
+    },
+    "footstep_concrete/09.wav": {
+      "lufs": -25.3,
+      "peak": -1.6
+    },
+    "footstep_concrete/10.wav": {
+      "lufs": -25.3,
+      "peak": -4.2
+    },
+    "footstep_concrete/11.wav": {
+      "lufs": -25.3,
+      "peak": -6.1
+    },
+    "footstep_concrete/12.wav": {
+      "lufs": -25.3,
+      "peak": -2.6
+    },
+    "footstep_concrete/13.wav": {
+      "lufs": -26.6,
+      "peak": -1.5
+    },
+    "footstep_concrete/14.wav": {
+      "lufs": -25.4,
+      "peak": -1.5
+    },
+    "footstep_concrete/15.wav": {
+      "lufs": -25.3,
+      "peak": -4.1
+    },
+    "footstep_concrete/16.wav": {
+      "lufs": -25.3,
+      "peak": -8.4
+    },
+    "footstep_concrete/17.wav": {
+      "lufs": -25.3,
+      "peak": -3.7
+    },
+    "footstep_concrete/18.wav": {
+      "lufs": -25.3,
+      "peak": -6.7
+    },
+    "footstep_concrete/19.wav": {
+      "lufs": -25.3,
+      "peak": -2.2
+    },
+    "footstep_grass/00.wav": {
+      "lufs": -24.9,
+      "peak": -4.6
+    },
+    "footstep_grass/01.wav": {
+      "lufs": -24.9,
+      "peak": -4.2
+    },
+    "footstep_grass/02.wav": {
+      "lufs": -27.9,
+      "peak": -1.5
+    },
+    "footstep_grass/03.wav": {
+      "lufs": -25,
+      "peak": -1.5
+    },
+    "footstep_grass/04.wav": {
+      "lufs": -26.4,
+      "peak": -1.5
+    },
+    "footstep_grass/05.wav": {
+      "lufs": -24.9,
+      "peak": -1.5
+    },
+    "footstep_grass/06.wav": {
+      "lufs": -26.8,
+      "peak": -1.5
+    },
+    "footstep_grass/07.wav": {
+      "lufs": -24.9,
+      "peak": -3.3
+    },
+    "footstep_grass/08.wav": {
+      "lufs": -24.9,
+      "peak": -4.7
+    },
+    "footstep_grass/09.wav": {
+      "lufs": -24.9,
+      "peak": -1.5
+    },
+    "footstep_grass/10.wav": {
+      "lufs": -27.8,
+      "peak": -1.5
+    },
+    "footstep_grass/11.wav": {
+      "lufs": -24.9,
+      "peak": -3.5
+    },
+    "footstep_grass/12.wav": {
+      "lufs": -24.9,
+      "peak": -5.1
+    },
+    "footstep_grass/13.wav": {
+      "lufs": -24.9,
+      "peak": -4.9
+    },
+    "footstep_grass/14.wav": {
+      "lufs": -25.7,
+      "peak": -1.5
+    },
+    "footstep_grass/15.wav": {
+      "lufs": -26.8,
+      "peak": -1.5
+    },
+    "footstep_steel/00.wav": {
+      "lufs": -28.2,
+      "peak": -1.5
+    },
+    "footstep_steel/01.wav": {
+      "lufs": -27.2,
+      "peak": -2.2
+    },
+    "footstep_steel/02.wav": {
+      "lufs": -27.2,
+      "peak": -2.3
+    },
+    "footstep_steel/03.wav": {
+      "lufs": -28.8,
+      "peak": -1.5
+    },
+    "footstep_steel/04.wav": {
+      "lufs": -27.2,
+      "peak": -1.8
+    },
+    "footstep_steel/05.wav": {
+      "lufs": -29.2,
+      "peak": -1.5
+    },
+    "footstep_steel/06.wav": {
+      "lufs": -27.2,
+      "peak": -2.4
+    },
+    "footstep_steel/07.wav": {
+      "lufs": -29.2,
+      "peak": -1.5
+    },
+    "footstep_steel/08.wav": {
+      "lufs": -29,
+      "peak": -1.5
+    },
+    "footstep_steel/09.wav": {
+      "lufs": -27.2,
+      "peak": -1.5
+    },
+    "footstep_steel/10.wav": {
+      "lufs": -27.2,
+      "peak": -3.4
+    },
+    "footstep_steel/11.wav": {
+      "lufs": -28.2,
+      "peak": -1.5
+    },
+    "footstep_steel/12.wav": {
+      "lufs": -27.2,
+      "peak": -2.3
+    },
+    "footstep_steel/13.wav": {
+      "lufs": -28.5,
+      "peak": -1.5
+    },
+    "footstep_steel/14.wav": {
+      "lufs": -27.2,
+      "peak": -3.3
+    },
+    "footstep_steel/15.wav": {
+      "lufs": -27.3,
+      "peak": -1.5
+    },
+    "footstep_steel/16.wav": {
+      "lufs": -27.2,
+      "peak": -1.5
+    },
+    "footstep_steel/17.wav": {
+      "lufs": -27.2,
+      "peak": -3.1
+    },
+    "footstep_steel/18.wav": {
+      "lufs": -27.2,
+      "peak": -1.5
+    },
+    "footstep_steel/19.wav": {
+      "lufs": -27.2,
+      "peak": -5.4
+    },
+    "footstep_wood/00.wav": {
+      "lufs": -26.1,
+      "peak": -1.5
+    },
+    "footstep_wood/01.wav": {
+      "lufs": -24.5,
+      "peak": -1.5
+    },
+    "footstep_wood/02.wav": {
+      "lufs": -25.3,
+      "peak": -1.5
+    },
+    "footstep_wood/03.wav": {
+      "lufs": -25.2,
+      "peak": -1.5
+    },
+    "footstep_wood/04.wav": {
+      "lufs": -23.8,
+      "peak": -2.5
+    },
+    "footstep_wood/05.wav": {
+      "lufs": -23.8,
+      "peak": -2.5
+    },
+    "footstep_wood/06.wav": {
+      "lufs": -23.8,
+      "peak": -1.6
+    },
+    "footstep_wood/07.wav": {
+      "lufs": -23.8,
+      "peak": -1.7
+    },
+    "footstep_wood/08.wav": {
+      "lufs": -25,
+      "peak": -1.5
+    },
+    "footstep_wood/09.wav": {
+      "lufs": -23.8,
+      "peak": -3
+    },
+    "footstep_wood/10.wav": {
+      "lufs": -24.3,
+      "peak": -1.5
+    },
+    "footstep_wood/11.wav": {
+      "lufs": -23.8,
+      "peak": -5.1
+    },
+    "footstep_wood/12.wav": {
+      "lufs": -25.6,
+      "peak": -1.5
+    },
+    "footstep_wood/13.wav": {
+      "lufs": -23.8,
+      "peak": -1.6
+    },
+    "footstep_wood/14.wav": {
+      "lufs": -23.8,
+      "peak": -4.2
+    },
+    "footstep_wood/15.wav": {
+      "lufs": -23.8,
+      "peak": -3.1
+    },
+    "footstep_wood/16.wav": {
+      "lufs": -25,
+      "peak": -1.5
+    },
+    "footstep_wood/17.wav": {
+      "lufs": -23.8,
+      "peak": -2.9
+    },
+    "footstep_wood/18.wav": {
+      "lufs": -23.9,
+      "peak": -1.5
+    },
+    "footstep_wood/19.wav": {
+      "lufs": -24.6,
+      "peak": -1.5
+    },
+    "footstep_brick/00.wav": {
+      "lufs": -25.7,
+      "peak": -1.5
+    },
+    "footstep_brick/01.wav": {
+      "lufs": -25.5,
+      "peak": -1.5
+    },
+    "footstep_brick/02.wav": {
+      "lufs": -27,
+      "peak": -1.5
+    },
+    "footstep_brick/03.wav": {
+      "lufs": -25.5,
+      "peak": -2.6
+    },
+    "footstep_brick/04.wav": {
+      "lufs": -25.5,
+      "peak": -3
+    },
+    "footstep_brick/05.wav": {
+      "lufs": -25.5,
+      "peak": -3.3
+    },
+    "footstep_brick/06.wav": {
+      "lufs": -25.9,
+      "peak": -1.5
+    },
+    "footstep_brick/07.wav": {
+      "lufs": -25.5,
+      "peak": -4.2
+    },
+    "footstep_brick/08.wav": {
+      "lufs": -25.5,
+      "peak": -1.9
+    },
+    "footstep_brick/09.wav": {
+      "lufs": -27.7,
+      "peak": -1.5
+    },
+    "footstep_brick/10.wav": {
+      "lufs": -25.6,
+      "peak": -1.5
+    },
+    "footstep_brick/11.wav": {
+      "lufs": -29.1,
+      "peak": -1.5
+    },
+    "footstep_brick/12.wav": {
+      "lufs": -25.5,
+      "peak": -4.3
+    },
+    "footstep_brick/13.wav": {
+      "lufs": -26.1,
+      "peak": -1.5
+    },
+    "footstep_brick/14.wav": {
+      "lufs": -25.5,
+      "peak": -4.2
+    },
+    "footstep_brick/15.wav": {
+      "lufs": -25.6,
+      "peak": -1.5
+    },
+    "footstep_brick/16.wav": {
+      "lufs": -28.5,
+      "peak": -1.5
+    },
+    "footstep_brick/17.wav": {
+      "lufs": -25.5,
+      "peak": -1.6
+    },
+    "footstep_brick/18.wav": {
+      "lufs": -25.5,
+      "peak": -2.1
+    },
+    "footstep_brick/19.wav": {
+      "lufs": -28,
+      "peak": -1.5
+    },
+    "footstep_hay/00.wav": {
+      "lufs": -26.5,
+      "peak": -1.5
+    },
+    "footstep_hay/01.wav": {
+      "lufs": -26.1,
+      "peak": -6.5
+    },
+    "footstep_hay/02.wav": {
+      "lufs": -26.1,
+      "peak": -2.7
+    },
+    "footstep_hay/03.wav": {
+      "lufs": -26.1,
+      "peak": -4.1
+    },
+    "footstep_hay/04.wav": {
+      "lufs": -26.8,
+      "peak": -1.5
+    },
+    "footstep_hay/05.wav": {
+      "lufs": -26.1,
+      "peak": -5.8
+    },
+    "footstep_hay/06.wav": {
+      "lufs": -26.6,
+      "peak": -1.5
+    },
+    "footstep_hay/07.wav": {
+      "lufs": -26.1,
+      "peak": -4.6
+    },
+    "footstep_hay/08.wav": {
+      "lufs": -26.2,
+      "peak": -1.5
+    },
+    "footstep_hay/09.wav": {
+      "lufs": -27.1,
+      "peak": -1.5
+    },
+    "footstep_hay/10.wav": {
+      "lufs": -27.5,
+      "peak": -1.5
+    },
+    "footstep_hay/11.wav": {
+      "lufs": -26.7,
+      "peak": -1.5
+    },
+    "footstep_hay/12.wav": {
+      "lufs": -26.8,
+      "peak": -1.5
+    },
+    "footstep_hay/13.wav": {
+      "lufs": -26.1,
+      "peak": -2.5
+    },
+    "footstep_hay/14.wav": {
+      "lufs": -26.1,
+      "peak": -3.2
+    },
+    "footstep_hay/15.wav": {
+      "lufs": -26.1,
+      "peak": -2.9
+    },
+    "footstep_hay/16.wav": {
+      "lufs": -27.3,
+      "peak": -1.5
+    },
+    "footstep_hay/17.wav": {
+      "lufs": -26.1,
+      "peak": -4.6
+    },
+    "footstep_hay/18.wav": {
+      "lufs": -26.1,
+      "peak": -1.8
+    },
+    "footstep_hay/19.wav": {
+      "lufs": -27.9,
+      "peak": -1.5
+    },
+    "player_breath_exhausted/00.m4a": {
+      "lufs": -15.7,
+      "peak": -2.2
+    },
+    "player_breath_exhausted/01.m4a": {
+      "lufs": -16.2,
+      "peak": -1
+    },
+    "player_pant/00.m4a": {
+      "lufs": -22.4,
+      "peak": -1
+    },
+    "player_hurt/00.wav": {
+      "lufs": -14,
+      "peak": -1.3
+    },
+    "player_hurt/01.m4a": {
+      "lufs": -14,
+      "peak": -1
+    },
+    "player_hurt/02.wav": {
+      "lufs": -15.5,
+      "peak": -1
+    },
+    "flashlight_click/00.wav": {
+      "lufs": -27.3,
+      "peak": -1
+    },
+    "flashlight_click/01.wav": {
+      "lufs": -26.8,
+      "peak": -1.5
+    },
+    "flashlight_click/02.m4a": {
+      "lufs": -26.8,
+      "peak": -1
+    },
+    "ui_click/00.wav": {
+      "lufs": -29.9,
+      "peak": -1
+    },
+    "ui_click/01.wav": {
+      "lufs": -26.1,
+      "peak": -1
+    },
+    "ui_click/02.wav": {
+      "lufs": -26.1,
+      "peak": -1.9
+    },
+    "ui_confirm/00.wav": {
+      "lufs": -10.5,
+      "peak": -1
+    },
+    "ui_confirm/01.wav": {
+      "lufs": -10.1,
+      "peak": -2.8
+    },
+    "ui_back/00.wav": {
+      "lufs": -26.4,
+      "peak": -1
+    },
+    "ui_back/01.wav": {
+      "lufs": -26.4,
+      "peak": -1
+    },
+    "paper_unfold/00.m4a": {
+      "lufs": -24.2,
+      "peak": -2.6
+    },
+    "paper_unfold/01.m4a": {
+      "lufs": -24.9,
+      "peak": -1
+    },
+    "paper_fold/00.wav": {
+      "lufs": -25.4,
+      "peak": -1
+    },
+    "paper_fold/01.m4a": {
+      "lufs": -23.6,
+      "peak": -5.3
+    },
+    "radio_dial_tick/00.wav": {
+      "lufs": -27.3,
+      "peak": -1.5
+    },
+    "radio_dial_tick/01.wav": {
+      "lufs": -27.5,
+      "peak": -1.5
+    },
+    "radio_dial_tick/02.wav": {
+      "lufs": -27.3,
+      "peak": -1.6
+    },
+    "radio_switch_on/00.m4a": {
+      "lufs": -24.6,
+      "peak": -1
+    },
+    "radio_switch_on/01.m4a": {
+      "lufs": -23.9,
+      "peak": -1.7
+    },
+    "walkie_squelch/00.wav": {
+      "lufs": -25.6,
+      "peak": -2.1
+    },
+    "walkie_squelch/01.m4a": {
+      "lufs": -25.6,
+      "peak": -1
+    },
+    "walkie_squelch/02.m4a": {
+      "lufs": -29.2,
+      "peak": -1
+    },
+    "radio_static_burst/00.m4a": {
+      "lufs": -22.5,
+      "peak": -4.1
+    },
+    "radio_static_burst/01.m4a": {
+      "lufs": -24.2,
+      "peak": -1
+    },
+    "battery_insert/00.wav": {
+      "lufs": -25.9,
+      "peak": -1
+    },
+    "battery_insert/01.m4a": {
+      "lufs": -23.1,
+      "peak": -3.9
+    },
+    "tower_door/00.m4a": {
+      "lufs": -20.8,
+      "peak": -4.3
+    },
+    "tower_door/01.m4a": {
+      "lufs": -22.3,
+      "peak": -1
+    },
+    "pickup_flask/00.wav": {
+      "lufs": -19.8,
+      "peak": -3.4
+    },
+    "pickup_flask/01.m4a": {
+      "lufs": -22,
+      "peak": -1
+    },
+    "pickup_battery/00.m4a": {
+      "lufs": -23.4,
+      "peak": -1
+    },
+    "pickup_battery/01.m4a": {
+      "lufs": -22.9,
+      "peak": -1
+    },
+    "pickup_battery/02.m4a": {
+      "lufs": -22.9,
+      "peak": -5.5
+    },
+    "pickup_battery/03.m4a": {
+      "lufs": -22.9,
+      "peak": -4.8
+    },
+    "pickup_battery/04.m4a": {
+      "lufs": -22.9,
+      "peak": -1
+    },
+    "generator_wrench/00.m4a": {
+      "lufs": -21.5,
+      "peak": -1
+    },
+    "generator_clank/00.m4a": {
+      "lufs": -12.1,
+      "peak": -1
+    },
+    "generator_clank/01.wav": {
+      "lufs": -9.8,
+      "peak": -1
+    },
+    "generator_clank/02.m4a": {
+      "lufs": -9.8,
+      "peak": -2.6
+    },
+    "generator_start/00.m4a": {
+      "lufs": -14.7,
+      "peak": -1
+    },
+    "generator_loop/00.m4a": {
+      "lufs": -19.1,
+      "peak": -6.6
+    },
+    "generator_stall/00.m4a": {
+      "lufs": -15.5,
+      "peak": -1
+    },
+    "wolf_growl/00.m4a": {
+      "lufs": -12.1,
+      "peak": -1
+    },
+    "wolf_growl/01.m4a": {
+      "lufs": -12.5,
+      "peak": -1
+    },
+    "wolf_growl/02.m4a": {
+      "lufs": -12.1,
+      "peak": -1
+    },
+    "wolf_growl/03.m4a": {
+      "lufs": -12.1,
+      "peak": -4
+    },
+    "wolf_howl/00.m4a": {
+      "lufs": -17.7,
+      "peak": -1
+    },
+    "wolf_howl/01.m4a": {
+      "lufs": -17.7,
+      "peak": -3.1
+    },
+    "wolf_howl/02.m4a": {
+      "lufs": -17.7,
+      "peak": -1
+    },
+    "wolf_howl/03.m4a": {
+      "lufs": -17.7,
+      "peak": -1.1
+    },
+    "wolf_attack/00.m4a": {
+      "lufs": -11,
+      "peak": -1
+    },
+    "wolf_attack/01.m4a": {
+      "lufs": -14.5,
+      "peak": -1
+    },
+    "wolf_attack/02.wav": {
+      "lufs": -11,
+      "peak": -3.2
+    },
+    "wolf_whimper/00.m4a": {
+      "lufs": -7.2,
+      "peak": -1
+    },
+    "wolf_whimper/01.m4a": {
+      "lufs": -7.2,
+      "peak": -1.7
+    },
+    "wolf_whimper/02.m4a": {
+      "lufs": -7.4,
+      "peak": -1
+    },
+    "wolf_whimper/03.m4a": {
+      "lufs": -7.2,
+      "peak": -1.6
+    },
+    "wolf_whimper/04.m4a": {
+      "lufs": -7.2,
+      "peak": -1
+    },
+    "specimen_footstep/00.wav": {
+      "lufs": -25.1,
+      "peak": -1.5
+    },
+    "specimen_footstep/01.wav": {
+      "lufs": -23.5,
+      "peak": -1.5
+    },
+    "specimen_footstep/02.wav": {
+      "lufs": -23.7,
+      "peak": -1.5
+    },
+    "specimen_footstep/03.wav": {
+      "lufs": -21.1,
+      "peak": -1.5
+    },
+    "specimen_footstep/04.wav": {
+      "lufs": -21.2,
+      "peak": -1.5
+    },
+    "specimen_footstep/05.wav": {
+      "lufs": -22.3,
+      "peak": -1.5
+    },
+    "specimen_footstep/06.wav": {
+      "lufs": -21.1,
+      "peak": -1.5
+    },
+    "specimen_footstep/07.wav": {
+      "lufs": -21.1,
+      "peak": -3.1
+    },
+    "specimen_footstep/08.wav": {
+      "lufs": -21.3,
+      "peak": -1.5
+    },
+    "specimen_footstep/09.wav": {
+      "lufs": -21.1,
+      "peak": -2
+    },
+    "specimen_footstep/10.wav": {
+      "lufs": -21.9,
+      "peak": -1.5
+    },
+    "specimen_footstep/11.wav": {
+      "lufs": -21.1,
+      "peak": -2.5
+    },
+    "specimen_footstep/12.wav": {
+      "lufs": -21.1,
+      "peak": -2.7
+    },
+    "specimen_footstep/13.wav": {
+      "lufs": -21.9,
+      "peak": -1.5
+    },
+    "specimen_footstep/14.wav": {
+      "lufs": -21.1,
+      "peak": -2.9
+    },
+    "specimen_footstep/15.wav": {
+      "lufs": -21.1,
+      "peak": -2.8
+    },
+    "specimen_footstep/16.wav": {
+      "lufs": -21.1,
+      "peak": -1.9
+    },
+    "specimen_footstep/17.wav": {
+      "lufs": -21.1,
+      "peak": -2
+    },
+    "specimen_footstep/18.wav": {
+      "lufs": -21.3,
+      "peak": -1.5
+    },
+    "specimen_footstep/19.wav": {
+      "lufs": -21.1,
+      "peak": -2.4
+    },
+    "specimen_footstep/20.wav": {
+      "lufs": -21.1,
+      "peak": -1.8
+    },
+    "specimen_footstep/21.wav": {
+      "lufs": -21.6,
+      "peak": -1.5
+    },
+    "specimen_footstep/22.wav": {
+      "lufs": -22.3,
+      "peak": -1.5
+    },
+    "specimen_footstep/23.wav": {
+      "lufs": -21.1,
+      "peak": -2
+    },
+    "specimen_footstep_floor/00.wav": {
+      "lufs": -26.5,
+      "peak": -4.3
+    },
+    "specimen_footstep_floor/01.wav": {
+      "lufs": -26.5,
+      "peak": -7.5
+    },
+    "specimen_footstep_floor/02.wav": {
+      "lufs": -26.5,
+      "peak": -6.5
+    },
+    "specimen_footstep_floor/03.wav": {
+      "lufs": -26.5,
+      "peak": -5.6
+    },
+    "specimen_footstep_floor/04.wav": {
+      "lufs": -26.5,
+      "peak": -4.7
+    },
+    "specimen_footstep_floor/05.wav": {
+      "lufs": -26.5,
+      "peak": -4.5
+    },
+    "specimen_footstep_floor/06.wav": {
+      "lufs": -26.5,
+      "peak": -3.6
+    },
+    "specimen_footstep_floor/07.wav": {
+      "lufs": -26.5,
+      "peak": -2.6
+    },
+    "specimen_footstep_floor/08.wav": {
+      "lufs": -29.7,
+      "peak": -1.5
+    },
+    "specimen_footstep_floor/09.wav": {
+      "lufs": -29.7,
+      "peak": -1.5
+    },
+    "specimen_footstep_floor/10.wav": {
+      "lufs": -28.3,
+      "peak": -1.5
+    },
+    "specimen_footstep_floor/11.wav": {
+      "lufs": -29.2,
+      "peak": -1.5
+    },
+    "specimen_footstep_floor/12.wav": {
+      "lufs": -31.6,
+      "peak": -1.5
+    },
+    "specimen_footstep_floor/13.wav": {
+      "lufs": -28.5,
+      "peak": -1.5
+    },
+    "specimen_footstep_floor/14.wav": {
+      "lufs": -26.5,
+      "peak": -1.5
+    },
+    "specimen_footstep_floor/15.wav": {
+      "lufs": -26.5,
+      "peak": -2
+    },
+    "specimen_footstep_floor/16.wav": {
+      "lufs": -26.5,
+      "peak": -2.5
+    },
+    "specimen_footstep_floor/17.wav": {
+      "lufs": -27.9,
+      "peak": -1.5
+    },
+    "specimen_footstep_floor/18.wav": {
+      "lufs": -26.5,
+      "peak": -1.5
+    },
+    "specimen_footstep_floor/19.wav": {
+      "lufs": -28.3,
+      "peak": -1.5
+    },
+    "specimen_footstep_floor/20.wav": {
+      "lufs": -27.2,
+      "peak": -1.5
+    },
+    "specimen_footstep_floor/21.wav": {
+      "lufs": -26.5,
+      "peak": -2.2
+    },
+    "specimen_footstep_floor/22.wav": {
+      "lufs": -28.6,
+      "peak": -1.5
+    },
+    "specimen_footstep_steel/00.wav": {
+      "lufs": -18.8,
+      "peak": -1.5
+    },
+    "specimen_footstep_steel/01.wav": {
+      "lufs": -18,
+      "peak": -3.6
+    },
+    "specimen_footstep_steel/02.wav": {
+      "lufs": -18.7,
+      "peak": -1.5
+    },
+    "specimen_footstep_steel/03.wav": {
+      "lufs": -18,
+      "peak": -3.8
+    },
+    "specimen_footstep_steel/04.wav": {
+      "lufs": -18,
+      "peak": -4.9
+    },
+    "specimen_footstep_steel/05.wav": {
+      "lufs": -18,
+      "peak": -1.5
+    },
+    "specimen_footstep_steel/06.wav": {
+      "lufs": -18,
+      "peak": -3.2
+    },
+    "specimen_footstep_steel/07.wav": {
+      "lufs": -18,
+      "peak": -4.1
+    },
+    "specimen_footstep_steel/08.wav": {
+      "lufs": -18,
+      "peak": -2.9
+    },
+    "specimen_footstep_steel/09.wav": {
+      "lufs": -19.7,
+      "peak": -1.5
+    },
+    "specimen_footstep_steel/10.wav": {
+      "lufs": -18.7,
+      "peak": -1.5
+    },
+    "specimen_footstep_steel/11.wav": {
+      "lufs": -19,
+      "peak": -1.5
+    },
+    "specimen_footstep_steel/12.wav": {
+      "lufs": -19.7,
+      "peak": -1.5
+    },
+    "specimen_footstep_wood/00.wav": {
+      "lufs": -22,
+      "peak": -1.5
+    },
+    "specimen_footstep_wood/01.wav": {
+      "lufs": -21.3,
+      "peak": -1.5
+    },
+    "specimen_footstep_wood/02.wav": {
+      "lufs": -20.6,
+      "peak": -4.1
+    },
+    "specimen_footstep_wood/03.wav": {
+      "lufs": -20.6,
+      "peak": -4.9
+    },
+    "specimen_footstep_wood/04.wav": {
+      "lufs": -23.8,
+      "peak": -1.5
+    },
+    "specimen_footstep_wood/05.wav": {
+      "lufs": -20.6,
+      "peak": -2.1
+    },
+    "specimen_footstep_wood/06.wav": {
+      "lufs": -20.6,
+      "peak": -1.7
+    },
+    "specimen_footstep_wood/07.wav": {
+      "lufs": -22.1,
+      "peak": -1.5
+    },
+    "specimen_footstep_wood/08.wav": {
+      "lufs": -22.1,
+      "peak": -1.5
+    },
+    "specimen_footstep_wood/09.wav": {
+      "lufs": -21.2,
+      "peak": -1.5
+    },
+    "specimen_footstep_wood/10.wav": {
+      "lufs": -22.4,
+      "peak": -1.5
+    },
+    "specimen_footstep_wood/11.wav": {
+      "lufs": -20.6,
+      "peak": -2.1
+    },
+    "specimen_footstep_wood/12.wav": {
+      "lufs": -20.8,
+      "peak": -1.5
+    },
+    "specimen_footstep_wood/13.wav": {
+      "lufs": -20.6,
+      "peak": -3
+    },
+    "specimen_footstep_wood/14.wav": {
+      "lufs": -20.6,
+      "peak": -2.3
+    },
+    "specimen_footstep_wood/15.wav": {
+      "lufs": -20.6,
+      "peak": -1.5
+    },
+    "specimen_footstep_wood/16.wav": {
+      "lufs": -20.6,
+      "peak": -2.3
+    },
+    "specimen_footstep_wood/17.wav": {
+      "lufs": -20.6,
+      "peak": -1.7
+    },
+    "specimen_footstep_wood/18.wav": {
+      "lufs": -20.6,
+      "peak": -4
+    },
+    "specimen_footstep_wood/19.wav": {
+      "lufs": -21.7,
+      "peak": -1.5
+    },
+    "specimen_footstep_wood/20.wav": {
+      "lufs": -20.6,
+      "peak": -4.4
+    },
+    "specimen_footstep_wood/21.wav": {
+      "lufs": -22.7,
+      "peak": -1.5
+    },
+    "specimen_claw/00.wav": {
+      "lufs": -27.3,
+      "peak": -3.1
+    },
+    "specimen_claw/01.wav": {
+      "lufs": -27.3,
+      "peak": -8.9
+    },
+    "specimen_claw/02.wav": {
+      "lufs": -27.7,
+      "peak": -1.5
+    },
+    "specimen_claw/03.wav": {
+      "lufs": -27.5,
+      "peak": -1.5
+    },
+    "specimen_claw/04.wav": {
+      "lufs": -27.3,
+      "peak": -4.7
+    },
+    "specimen_claw/05.wav": {
+      "lufs": -29.6,
+      "peak": -1.5
+    },
+    "specimen_claw/06.wav": {
+      "lufs": -27.3,
+      "peak": -1.5
+    },
+    "specimen_claw/07.wav": {
+      "lufs": -30.8,
+      "peak": -1.5
+    },
+    "specimen_claw/08.wav": {
+      "lufs": -28.1,
+      "peak": -1.5
+    },
+    "specimen_claw/09.wav": {
+      "lufs": -27.3,
+      "peak": -1.5
+    },
+    "specimen_claw/10.wav": {
+      "lufs": -27.3,
+      "peak": -1.7
+    },
+    "specimen_claw/11.wav": {
+      "lufs": -27.3,
+      "peak": -4.5
+    },
+    "specimen_claw/12.wav": {
+      "lufs": -28,
+      "peak": -1.5
+    },
+    "specimen_claw/13.wav": {
+      "lufs": -27.3,
+      "peak": -6.1
+    },
+    "specimen_claw/14.wav": {
+      "lufs": -27.3,
+      "peak": -1.5
+    },
+    "specimen_claw/15.wav": {
+      "lufs": -27.3,
+      "peak": -1.5
+    },
+    "specimen_claw/16.wav": {
+      "lufs": -27.3,
+      "peak": -3.9
+    },
+    "specimen_claw/17.wav": {
+      "lufs": -30.3,
+      "peak": -1.5
+    },
+    "specimen_claw/18.wav": {
+      "lufs": -27.3,
+      "peak": -4.9
+    },
+    "specimen_claw/19.wav": {
+      "lufs": -27.3,
+      "peak": -1.9
+    },
+    "specimen_bones/00.wav": {
+      "lufs": -29.7,
+      "peak": -1.5
+    },
+    "specimen_bones/01.wav": {
+      "lufs": -32.8,
+      "peak": -1.5
+    },
+    "specimen_bones/02.wav": {
+      "lufs": -29.7,
+      "peak": -1.9
+    },
+    "specimen_bones/03.wav": {
+      "lufs": -29.7,
+      "peak": -1.7
+    },
+    "specimen_bones/04.wav": {
+      "lufs": -31.8,
+      "peak": -1.5
+    },
+    "specimen_bones/05.wav": {
+      "lufs": -29.7,
+      "peak": -2.1
+    },
+    "specimen_bones/06.wav": {
+      "lufs": -30.8,
+      "peak": -1.5
+    },
+    "specimen_bones/07.wav": {
+      "lufs": -32.4,
+      "peak": -1.5
+    },
+    "specimen_bones/08.wav": {
+      "lufs": -34.7,
+      "peak": -1.5
+    },
+    "specimen_bones/09.wav": {
+      "lufs": -29.7,
+      "peak": -5.8
+    },
+    "specimen_bones/10.wav": {
+      "lufs": -31.8,
+      "peak": -1.5
+    },
+    "specimen_bones/11.wav": {
+      "lufs": -29.7,
+      "peak": -1.5
+    },
+    "specimen_bones/12.wav": {
+      "lufs": -29.7,
+      "peak": -1.6
+    },
+    "specimen_bones/13.wav": {
+      "lufs": -29.7,
+      "peak": -1.5
+    },
+    "specimen_bones/14.wav": {
+      "lufs": -29.8,
+      "peak": -1.5
+    },
+    "specimen_bones/15.wav": {
+      "lufs": -29.7,
+      "peak": -3.8
+    },
+    "specimen_bones/16.wav": {
+      "lufs": -29.7,
+      "peak": -3.4
+    },
+    "specimen_bones/17.wav": {
+      "lufs": -29.7,
+      "peak": -5.7
+    },
+    "specimen_bones/18.wav": {
+      "lufs": -32.4,
+      "peak": -1.5
+    },
+    "specimen_bones/19.wav": {
+      "lufs": -29.7,
+      "peak": -3.1
+    },
+    "specimen_laugh/00.m4a": {
+      "lufs": -16.1,
+      "peak": -1
+    },
+    "specimen_laugh/01.m4a": {
+      "lufs": -16.8,
+      "peak": -1
+    },
+    "specimen_laugh/02.m4a": {
+      "lufs": -16.1,
+      "peak": -2.2
+    },
+    "specimen_breath/00.m4a": {
+      "lufs": -19.7,
+      "peak": -8.4
+    },
+    "specimen_roar/00.m4a": {
+      "lufs": -7.1,
+      "peak": -2.2
+    },
+    "specimen_roar/01.m4a": {
+      "lufs": -7.4,
+      "peak": -1
+    },
+    "specimen_repelled/00.m4a": {
+      "lufs": -7.3,
+      "peak": -1
+    },
+    "specimen_repelled/01.m4a": {
+      "lufs": -7.2,
+      "peak": -1.4
+    },
+    "specimen_kill/00.m4a": {
+      "lufs": -19.2,
+      "peak": -1
+    },
+    "specimen_kill/01.m4a": {
+      "lufs": -18.9,
+      "peak": -3
+    },
+    "burglar_rummage/00.m4a": {
+      "lufs": -21.3,
+      "peak": -1
+    },
+    "fence_rattle/00.m4a": {
+      "lufs": -19.5,
+      "peak": -3.2
+    },
+    "fence_rattle/01.m4a": {
+      "lufs": -20.3,
+      "peak": -1
+    },
+    "ambience_night/00.m4a": {
+      "lufs": -14.3,
+      "peak": -5.5
+    },
+    "ambience_lab/00.m4a": {
+      "lufs": -20,
+      "peak": -8.7
+    },
+    "power_surge/00.m4a": {
+      "lufs": -16.6,
+      "peak": -1.5
+    },
+    "power_surge/01.m4a": {
+      "lufs": -16.7,
+      "peak": -1
+    },
+    "shockwave/00.m4a": {
+      "lufs": -18.4,
+      "peak": -1
+    },
+    "vo_intro_night1/00.m4a": {
+      "lufs": -14,
+      "peak": -1
+    },
+    "vo_intro_endless/00.m4a": {
+      "lufs": -14,
+      "peak": -1.1
+    },
+    "vo_station_1/00.m4a": {
+      "lufs": -14,
+      "peak": -1
+    },
+    "vo_station_2/00.m4a": {
+      "lufs": -14,
+      "peak": -3.1
+    },
+    "vo_station_3/00.m4a": {
+      "lufs": -14,
+      "peak": -1
+    },
+    "vo_station_4/00.m4a": {
+      "lufs": -14,
+      "peak": -1.8
+    },
+    "vo_station_5/00.m4a": {
+      "lufs": -14,
+      "peak": -2.6
+    },
+    "vo_station_6/00.m4a": {
+      "lufs": -14,
+      "peak": -1
+    },
+    "vo_station_7/00.m4a": {
+      "lufs": -14,
+      "peak": -1.8
+    },
+    "vo_station_8/00.m4a": {
+      "lufs": -14,
+      "peak": -1.3
+    },
+    "vo_station_9/00.m4a": {
+      "lufs": -14,
+      "peak": -1
+    },
+    "vo_station_10/00.m4a": {
+      "lufs": -14,
+      "peak": -1.4
+    },
+    "vo_station_11/00.m4a": {
+      "lufs": -14,
+      "peak": -1.9
+    },
+    "vo_station_12/00.m4a": {
+      "lufs": -14,
+      "peak": -1
+    },
+    "vo_station_13/00.m4a": {
+      "lufs": -14.1,
+      "peak": -1
+    },
+    "vo_station_14/00.m4a": {
+      "lufs": -14,
+      "peak": -1.4
+    },
+    "vo_station_15/00.m4a": {
+      "lufs": -14,
+      "peak": -2.3
+    },
+    "vo_station_16/00.m4a": {
+      "lufs": -14,
+      "peak": -1.7
+    },
+    "vo_station_17/00.m4a": {
+      "lufs": -14,
+      "peak": -1
+    },
+    "vo_station_18/00.m4a": {
+      "lufs": -14,
+      "peak": -3.1
+    },
+    "vo_station_19/00.m4a": {
+      "lufs": -14,
+      "peak": -1.7
+    },
+    "vo_station_20/00.m4a": {
+      "lufs": -14,
+      "peak": -1
+    },
+    "vo_generator_online/00.m4a": {
+      "lufs": -14,
+      "peak": -1.9
+    },
+    "vo_surge/00.m4a": {
+      "lufs": -14.2,
+      "peak": -1
+    },
+    "vo_brownout/00.m4a": {
+      "lufs": -14,
+      "peak": -1.5
+    },
+    "vo_scavengers/00.m4a": {
+      "lufs": -14,
+      "peak": -1
+    },
+    "vo_victory/00.m4a": {
+      "lufs": -14,
+      "peak": -1
+    },
+    "burglar_scream/00.m4a": {
+      "lufs": -5,
+      "peak": -1.3
+    },
+    "burglar_scream/01.m4a": {
+      "lufs": -5.1,
+      "peak": -1
+    },
+    "wolf_death/00.m4a": {
+      "lufs": -16.3,
+      "peak": -1
+    },
+    "wolf_death/01.m4a": {
+      "lufs": -13.7,
+      "peak": -8
+    },
+    "specimen_feed/00.m4a": {
+      "lufs": -27.5,
+      "peak": -1
+    },
+    "hide_in/00.m4a": {
+      "lufs": -26.8,
+      "peak": -1
+    },
+    "dread_drone/00.m4a": {
+      "lufs": -19.5,
+      "peak": -13.2
+    },
+    "dread_growl/00.m4a": {
+      "lufs": -18,
+      "peak": -5.1
+    },
+    "dread_ring/00.m4a": {
+      "lufs": -12.5,
+      "peak": -12.8
+    },
+    "scare_sting/00.m4a": {
+      "lufs": -15.9,
+      "peak": -1
+    },
+    "scare_sting/01.m4a": {
+      "lufs": -15.9,
+      "peak": -1.1
+    },
+    "static_burst/00.m4a": {
+      "lufs": -9.6,
+      "peak": -1.1
+    },
+    "static_burst/01.m4a": {
+      "lufs": -9.6,
+      "peak": -1
+    },
+    "chase_sting/00.m4a": {
+      "lufs": -14.1,
+      "peak": -2.6
+    },
+    "chase_sting/01.m4a": {
+      "lufs": -14.4,
+      "peak": -1
+    },
+    "chase_sting/02.m4a": {
+      "lufs": -14.2,
+      "peak": -1
+    },
+    "chase_sting/03.m4a": {
+      "lufs": -14.1,
+      "peak": -1.2
+    },
+    "watching_swell/00.m4a": {
+      "lufs": -11.6,
+      "peak": -1
+    },
+    "scare_slam/00.m4a": {
+      "lufs": -15,
+      "peak": -1
+    },
+    "scare_slam/01.m4a": {
+      "lufs": -14.4,
+      "peak": -1.4
+    },
+    "scare_slam/02.m4a": {
+      "lufs": -14.4,
+      "peak": -2.1
+    },
+    "scare_slam/03.m4a": {
+      "lufs": -14.6,
+      "peak": -1
+    },
+    "scare_shriek/00.m4a": {
+      "lufs": -4.8,
+      "peak": -1
+    },
+    "scare_shriek/01.m4a": {
+      "lufs": -4.8,
+      "peak": -1.2
+    },
+    "scare_shriek/02.m4a": {
+      "lufs": -4.9,
+      "peak": -1
+    },
+    "scare_shriek/03.m4a": {
+      "lufs": -4.8,
+      "peak": -1.5
+    },
+    "scare_static/00.wav": {
+      "lufs": -22.8,
+      "peak": -1
+    },
+    "scare_static/01.wav": {
+      "lufs": -22,
+      "peak": -13.9
+    },
+    "scare_static/02.wav": {
+      "lufs": -22.5,
+      "peak": -1
+    },
+    "scare_static/03.wav": {
+      "lufs": -22,
+      "peak": -2.5
+    },
+    "notice_whine/00.m4a": {
+      "lufs": -16.5,
+      "peak": -10.8
+    },
+    "dread_spine/00.m4a": {
+      "lufs": -24.8,
+      "peak": -12.5
+    },
+    "dread_spine_rough/00.m4a": {
+      "lufs": -15.3,
+      "peak": -5.3
+    },
+    "ambience_insects/00.m4a": {
+      "lufs": -11.9,
+      "peak": -2.5
+    },
+    "wind_high/00.m4a": {
+      "lufs": -26.4,
+      "peak": -3.3
+    },
+    "wolf_steps/00.wav": {
+      "lufs": -21.1,
+      "peak": -2
+    },
+    "wolf_steps/01.wav": {
+      "lufs": -21.2,
+      "peak": -1.5
+    },
+    "wolf_steps/02.wav": {
+      "lufs": -21.2,
+      "peak": -1.5
+    },
+    "wolf_steps/03.wav": {
+      "lufs": -21.1,
+      "peak": -3.2
+    },
+    "wolf_steps/04.wav": {
+      "lufs": -21.1,
+      "peak": -1.7
+    },
+    "wolf_steps/05.wav": {
+      "lufs": -21.1,
+      "peak": -1.6
+    },
+    "wolf_steps/06.wav": {
+      "lufs": -21.4,
+      "peak": -1.5
+    },
+    "wolf_steps/07.wav": {
+      "lufs": -22.7,
+      "peak": -1.5
+    },
+    "wolf_steps/08.wav": {
+      "lufs": -21.1,
+      "peak": -2
+    },
+    "wolf_steps/09.wav": {
+      "lufs": -21.1,
+      "peak": -1.6
+    },
+    "wolf_steps/10.wav": {
+      "lufs": -24.6,
+      "peak": -1.5
+    },
+    "wolf_steps/11.wav": {
+      "lufs": -22.1,
+      "peak": -1.5
+    },
+    "wolf_steps/12.wav": {
+      "lufs": -21.1,
+      "peak": -2
+    },
+    "wolf_steps/13.wav": {
+      "lufs": -21.1,
+      "peak": -2.5
+    },
+    "wolf_steps/14.wav": {
+      "lufs": -21.1,
+      "peak": -4
+    },
+    "wolf_steps/15.wav": {
+      "lufs": -24.2,
+      "peak": -1.5
+    },
+    "wolf_steps/16.wav": {
+      "lufs": -21.4,
+      "peak": -1.5
+    },
+    "wolf_steps/17.wav": {
+      "lufs": -21.1,
+      "peak": -2.3
+    },
+    "wolf_steps/18.wav": {
+      "lufs": -25.6,
+      "peak": -1.5
+    },
+    "wolf_steps/19.wav": {
+      "lufs": -21.1,
+      "peak": -3.5
+    },
+    "wolf_steps/20.wav": {
+      "lufs": -22,
+      "peak": -1.5
+    },
+    "wolf_steps/21.wav": {
+      "lufs": -21.1,
+      "peak": -2.4
+    },
+    "wolf_steps/22.wav": {
+      "lufs": -21.9,
+      "peak": -1.5
+    },
+    "wolf_steps/23.wav": {
+      "lufs": -22.6,
+      "peak": -1.5
+    },
+    "hide_out/00.wav": {
+      "lufs": -23.9,
+      "peak": -2.3
+    },
+    "hide_out/01.wav": {
+      "lufs": -24.2,
+      "peak": -1
+    },
+    "hide_out/02.m4a": {
+      "lufs": -23.9,
+      "peak": -1
+    },
+    "sighting_boom/00.m4a": {
+      "lufs": -13,
+      "peak": -1.2
+    },
+    "sighting_boom/01.m4a": {
+      "lufs": -13,
+      "peak": -2.3
+    },
+    "sighting_boom/02.m4a": {
+      "lufs": -13.4,
+      "peak": -1
+    },
+    "sighting_boom/03.m4a": {
+      "lufs": -13.1,
+      "peak": -1
+    },
+    "gaze_grind/00.m4a": {
+      "lufs": -19.7,
+      "peak": -1
+    },
+    "reveal_sting/00.wav": {
+      "lufs": -19.6,
+      "peak": -2.7
+    },
+    "reveal_sting/01.wav": {
+      "lufs": -19.6,
+      "peak": -1
+    },
+    "reveal_sting/02.wav": {
+      "lufs": -19.6,
+      "peak": -1
+    },
+    "haunt_knock/00.m4a": {
+      "lufs": -19.6,
+      "peak": -1
+    },
+    "haunt_knock/01.m4a": {
+      "lufs": -18.7,
+      "peak": -1.1
+    },
+    "haunt_knock/02.m4a": {
+      "lufs": -18.7,
+      "peak": -2.8
+    },
+    "haunt_knock/03.m4a": {
+      "lufs": -18.7,
+      "peak": -1
+    },
+    "haunt_scrape/00.m4a": {
+      "lufs": -14.2,
+      "peak": -2.5
+    },
+    "haunt_scrape/01.m4a": {
+      "lufs": -14.6,
+      "peak": -1
+    },
+    "haunt_scrape/02.m4a": {
+      "lufs": -14.2,
+      "peak": -1.9
+    },
+    "haunt_scrape/03.m4a": {
+      "lufs": -15,
+      "peak": -1
+    },
+    "haunt_breath/00.m4a": {
+      "lufs": -18.1,
+      "peak": -1.4
+    },
+    "haunt_breath/01.m4a": {
+      "lufs": -18.2,
+      "peak": -1
+    },
+    "haunt_breath/02.m4a": {
+      "lufs": -18.1,
+      "peak": -7.1
+    },
+    "haunt_breath/03.m4a": {
+      "lufs": -25.2,
+      "peak": -1
+    },
+    "lights_dip/00.m4a": {
+      "lufs": -22.3,
+      "peak": -1
+    },
+    "generator_crank/00.wav": {
+      "lufs": -22.7,
+      "peak": -1
+    },
+    "generator_crank/01.m4a": {
+      "lufs": -21.7,
+      "peak": -1
+    },
+    "generator_crank/02.m4a": {
+      "lufs": -21.7,
+      "peak": -1.6
+    },
+    "generator_crank/03.m4a": {
+      "lufs": -21.7,
+      "peak": -3.4
+    },
+    "generator_crank/04.m4a": {
+      "lufs": -22.7,
+      "peak": -1
+    },
+    "generator_sputter/00.m4a": {
+      "lufs": -20,
+      "peak": -1
+    },
+    "generator_sputter/01.m4a": {
+      "lufs": -20,
+      "peak": -1
+    },
+    "grid_ready/00.m4a": {
+      "lufs": -10.3,
+      "peak": -1
+    },
+    "breaker_throw/00.m4a": {
+      "lufs": -14.7,
+      "peak": -1
+    },
+    "antennas_fire/00.m4a": {
+      "lufs": -14.4,
+      "peak": -1
+    },
+    "torch_pop/00.wav": {
+      "lufs": -26.2,
+      "peak": -1
+    },
+    "burglar_startled/00.m4a": {
+      "lufs": -17.1,
+      "peak": -1
+    },
+    "radio_off/00.m4a": {
+      "lufs": -16.9,
+      "peak": -1
+    },
+    "heartbeat/00.wav": {
+      "lufs": -20.3,
+      "peak": -1.5
+    },
+    "heartbeat/01.wav": {
+      "lufs": -20,
+      "peak": -1.9
+    },
+    "heartbeat/02.wav": {
+      "lufs": -20.4,
+      "peak": -1.5
+    },
+    "heartbeat/03.wav": {
+      "lufs": -20,
+      "peak": -2
+    },
+    "heartbeat/04.wav": {
+      "lufs": -20.9,
+      "peak": -1.5
+    },
+    "heartbeat/05.wav": {
+      "lufs": -20,
+      "peak": -1.9
+    },
+    "heartbeat_mid/00.wav": {
+      "lufs": -19.7,
+      "peak": -1.5
+    },
+    "heartbeat_mid/01.wav": {
+      "lufs": -20,
+      "peak": -1.5
+    },
+    "heartbeat_mid/02.wav": {
+      "lufs": -20.8,
+      "peak": -1.5
+    },
+    "heartbeat_mid/03.wav": {
+      "lufs": -19.6,
+      "peak": -1.5
+    },
+    "heartbeat_mid/04.wav": {
+      "lufs": -19.6,
+      "peak": -1.5
+    },
+    "heartbeat_mid/05.wav": {
+      "lufs": -19.6,
+      "peak": -3
+    },
+    "heartbeat_mid/06.wav": {
+      "lufs": -19.6,
+      "peak": -3.8
+    },
+    "heartbeat_mid/07.wav": {
+      "lufs": -19.6,
+      "peak": -3.5
+    },
+    "heartbeat_fast/00.wav": {
+      "lufs": -18.3,
+      "peak": -1.6
+    },
+    "heartbeat_fast/01.wav": {
+      "lufs": -18.3,
+      "peak": -1.6
+    },
+    "heartbeat_fast/02.wav": {
+      "lufs": -18.3,
+      "peak": -1.5
+    },
+    "heartbeat_fast/03.wav": {
+      "lufs": -18.3,
+      "peak": -1.5
+    },
+    "heartbeat_fast/04.wav": {
+      "lufs": -18.4,
+      "peak": -1.5
+    },
+    "heartbeat_fast/05.wav": {
+      "lufs": -18.5,
+      "peak": -1.5
+    },
+    "heartbeat_fast/06.wav": {
+      "lufs": -18.3,
+      "peak": -2.3
+    },
+    "heartbeat_fast/07.wav": {
+      "lufs": -18.3,
+      "peak": -1.6
+    },
+    "death_static/00.m4a": {
+      "lufs": -9.6,
+      "peak": -1
+    },
+    "vo_weiss_log_1/00.m4a": {
+      "lufs": -14,
+      "peak": -1
+    },
+    "vo_weiss_log_2/00.m4a": {
+      "lufs": -14,
+      "peak": -1
+    },
+    "vo_weiss_log_3/00.m4a": {
+      "lufs": -14,
+      "peak": -1
+    },
+    "vo_count_calm/00.m4a": {
+      "lufs": -14.2,
+      "peak": -1
+    },
+    "vo_count_afraid/00.m4a": {
+      "lufs": -14,
+      "peak": -1.3
+    },
+    "vo_count_shout/00.m4a": {
+      "lufs": -14,
+      "peak": -2.5
+    },
+    "vo_whisper_look/00.m4a": {
+      "lufs": -14,
+      "peak": -2.4
+    },
+    "thunder_close/00.m4a": {
+      "lufs": -12.8,
+      "peak": -1
+    },
+    "thunder_close/01.m4a": {
+      "lufs": -13.1,
+      "peak": -1
+    },
+    "thunder_close/02.m4a": {
+      "lufs": -12.8,
+      "peak": -2.1
+    },
+    "thunder_far/00.m4a": {
+      "lufs": -13.4,
+      "peak": -1
+    },
+    "thunder_far/01.m4a": {
+      "lufs": -14.6,
+      "peak": -1
+    },
+    "thunder_far/02.m4a": {
+      "lufs": -13.4,
+      "peak": -3.8
+    },
+    "wolf_howl_pack/00.m4a": {
+      "lufs": -12,
+      "peak": -1
+    },
+    "wolf_howl_pack/01.m4a": {
+      "lufs": -7,
+      "peak": -1
+    },
+    "wolf_howl_pack/02.m4a": {
+      "lufs": -7,
+      "peak": -1.3
+    },
+    "wolf_run_by/00.m4a": {
+      "lufs": -19.2,
+      "peak": -1
+    },
+    "wolf_run_by/01.m4a": {
+      "lufs": -19.2,
+      "peak": -1
+    },
+    "wolf_run_by/02.m4a": {
+      "lufs": -19.2,
+      "peak": -1.9
+    },
+    "chains_rattle/00.m4a": {
+      "lufs": -18.9,
+      "peak": -1
+    },
+    "chains_rattle/01.m4a": {
+      "lufs": -18.9,
+      "peak": -1
+    },
+    "chains_rattle/02.m4a": {
+      "lufs": -18.9,
+      "peak": -5.3
+    },
+    "specimen_startle/00.m4a": {
+      "lufs": -9.2,
+      "peak": -1
+    },
+    "specimen_startle/01.m4a": {
+      "lufs": -9.2,
+      "peak": -1.9
+    },
+    "specimen_startle/02.m4a": {
+      "lufs": -10.8,
+      "peak": -1
+    },
+    "spark_zap/00.wav": {
+      "lufs": -27.6,
+      "peak": -7.1
+    },
+    "spark_zap/01.wav": {
+      "lufs": -27.6,
+      "peak": -5.5
+    },
+    "spark_zap/02.wav": {
+      "lufs": -27.6,
+      "peak": -2.4
+    },
+    "spark_zap/03.wav": {
+      "lufs": -27.6,
+      "peak": -4.9
+    },
+    "spark_zap/04.wav": {
+      "lufs": -27.6,
+      "peak": -7.6
+    },
+    "spark_zap/05.wav": {
+      "lufs": -33.9,
+      "peak": -1.5
+    },
+    "spark_zap/06.wav": {
+      "lufs": -30.9,
+      "peak": -1.5
+    },
+    "spark_zap/07.wav": {
+      "lufs": -28.5,
+      "peak": -1.5
+    },
+    "spark_zap/08.wav": {
+      "lufs": -31.4,
+      "peak": -1.5
+    },
+    "spark_zap/09.wav": {
+      "lufs": -28.1,
+      "peak": -1.5
+    },
+    "footstep_water/00.wav": {
+      "lufs": -20.3,
+      "peak": -5.1
+    },
+    "footstep_water/01.wav": {
+      "lufs": -20.6,
+      "peak": -1.5
+    },
+    "footstep_water/02.wav": {
+      "lufs": -20.3,
+      "peak": -2.9
+    },
+    "footstep_water/03.wav": {
+      "lufs": -20.3,
+      "peak": -2.2
+    },
+    "footstep_water/04.wav": {
+      "lufs": -20.3,
+      "peak": -2.1
+    },
+    "footstep_water/05.wav": {
+      "lufs": -20.3,
+      "peak": -2.4
+    },
+    "footstep_water/06.wav": {
+      "lufs": -20.8,
+      "peak": -1.5
+    },
+    "footstep_water/07.wav": {
+      "lufs": -22.9,
+      "peak": -1.5
+    },
+    "footstep_water/08.wav": {
+      "lufs": -21.1,
+      "peak": -1.5
+    },
+    "footstep_water/09.wav": {
+      "lufs": -20.3,
+      "peak": -4
+    },
+    "footstep_water/10.wav": {
+      "lufs": -22.7,
+      "peak": -1.5
+    },
+    "footstep_water/11.wav": {
+      "lufs": -20.3,
+      "peak": -2.2
+    },
+    "footstep_water/12.wav": {
+      "lufs": -21.2,
+      "peak": -1.5
+    },
+    "footstep_water/13.wav": {
+      "lufs": -20.3,
+      "peak": -2.6
+    },
+    "footstep_water/14.wav": {
+      "lufs": -20.5,
+      "peak": -1.5
+    },
+    "footstep_water/15.wav": {
+      "lufs": -23.7,
+      "peak": -1.5
+    },
+    "ambience_tunnel/00.m4a": {
+      "lufs": -27.7,
+      "peak": -7.6
+    },
+    "specimen_agony/00.m4a": {
+      "lufs": -10.5,
+      "peak": -1
+    },
+    "specimen_agony/01.m4a": {
+      "lufs": -8.9,
+      "peak": -4.4
+    },
+    "gate_open/00.m4a": {
+      "lufs": -14.2,
+      "peak": -1
+    },
+    "gate_open/01.m4a": {
+      "lufs": -13.6,
+      "peak": -2.5
+    },
+    "field_down/00.m4a": {
+      "lufs": -12.7,
+      "peak": -1
+    },
+    "death_drag/00.m4a": {
+      "lufs": -12.2,
+      "peak": -1
+    },
+    "death_drag/01.m4a": {
+      "lufs": -11.4,
+      "peak": -5.1
+    },
+    "boom_mech/00.m4a": {
+      "lufs": -10.3,
+      "peak": -2.4
+    },
+    "boom_mech/01.m4a": {
+      "lufs": -11,
+      "peak": -1
+    },
+    "dread_pursuit/00.m4a": {
+      "lufs": -22.6,
+      "peak": -13.1
+    }
+  }
+}
